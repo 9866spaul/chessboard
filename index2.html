@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            position: relative;
+            display: inline-block;
+        }
+        img {
+    width: 40px;
+}
+
+.content>p {
+    background-color: #eee;
+    font-size: 1.5rem;
+    padding: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.content {
+    display: none;
+}
+
+.container:hover .content {
+            display: block;
+        }
+        .breakfast:hover{
+            background-color: rgb(250, 215, 248);
+            text-shadow: 2px 2px 3px pink;
+        }
+        .lunch:hover{
+            background-color: rgb(127, 133, 255);
+            text-shadow: 2px 2px 3px lightcoral;
+        }
+        .snacks:hover{
+            background-color: rgb(31, 159, 57);
+            text-shadow: 2px 2px 3px lightcoral;
+        }
+        .dinner:hover{
+            background-color:rgb(143, 59, 7);
+            text-shadow: 2px 2px 3px lightsalmon;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+    <div class="icon">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/800px-Hamburger_icon.svg.png"
+            alt="">
+    </div>
+    <div class="content">
+        <p class="breakfast">Breakfast</p>
+        <p class="lunch">Lunch</p>
+        <p class="snacks">Snacks</p>
+        <p class="dinner">Dinner</p>
+    </div>
+</div>
+</body>
+</html>
